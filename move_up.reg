@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\MoveUp]
+@="Move Up"
+"Icon"="C:\\Users\\User\\move-up\\icon.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\MoveUp\command]
+@="\"C:\\Python311\\python.exe\" \"C:\\Users\\User\\move-up\\move_up.py\" \"%1\""
